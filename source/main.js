@@ -16,7 +16,7 @@ let borderUISize = config.height / 15;
 let borderPadding = borderUISize / 3;
 
 let corrects = 0;
-let answered = 8;
+let answered = 0;
 
 let daughterQuestion = false;
 let ageQuestion = false;
