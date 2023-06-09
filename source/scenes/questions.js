@@ -232,27 +232,27 @@ class Questions extends Phaser.Scene {
 
             instantly.on('pointerdown', function (pointer) {
 
-                this.query.setText('Thats a lie. He did have a job.');
+                this.query.setText('No, death did not come instantly.');
                 instantly.destroy();
                 min.destroy();
                 this.time.addEvent({
                     delay: 2500, 
-                    callback: () => this.query.setText('He was a police officer. He never was a security guard.'),
+                    callback: () => this.query.setText('He actually lasted 20 minutes.'),
                     callbackScope: this, 
                 });
                 this.time.addEvent({
                     delay: 5000, 
-                    callback: () => this.query.setText('He never lost his job or struggled with money.'),
+                    callback: () => this.query.setText('As he choked, all he could stare at was Pooltem.'),
                     callbackScope: this, 
                 });
                 this.time.addEvent({
                     delay: 7500, 
-                    callback: () => this.query.setText('He had gone to visit a fellow officer that day.'),
+                    callback: () => this.query.setText('And the devilish smile of his face.'),
                     callbackScope: this, 
                 });
                 this.time.addEvent({
                     delay: 10000, 
-                    callback: () => this.query.setText('He was shocked to find the window smashed and his friend dead.'),
+                    callback: () => this.query.setText('In that moment, he knew what he would do.'),
                     callbackScope: this, 
                 });
                 this.time.addEvent({
@@ -270,27 +270,27 @@ class Questions extends Phaser.Scene {
 
             min.on('pointerdown', function (pointer) {
 
-                this.query.setText('Yes, he was a police officer.');
+                this.query.setText('Yes, he lasted for 20 minutes.');
                 instantly.destroy();
                 min.destroy();
                 this.time.addEvent({
                     delay: 2500, 
-                    callback: () => this.query.setText('He never lost his job, nor was he ever security guard.'),
+                    callback: () => this.query.setText('20 painful, agonizing minutes.'),
                     callbackScope: this, 
                 });
                 this.time.addEvent({
                     delay: 5000, 
-                    callback: () => this.query.setText('That part was a lie to make him look like a criminal.'),
+                    callback: () => this.query.setText('All he could think about was what would happen to his daughter.'),
                     callbackScope: this, 
                 });
                 this.time.addEvent({
                     delay: 7500, 
-                    callback: () => this.query.setText('He had gone to visit a fellow officer that day.'),
+                    callback: () => this.query.setText('And the look on the face of a watching Mr. Pooltem.'),
                     callbackScope: this, 
                 });
                 this.time.addEvent({
                     delay: 10000, 
-                    callback: () => this.query.setText('He was shocked to find the window smashed and his friend dead.'),
+                    callback: () => this.query.setText('He swore in that moment the killer would get what he deserved.'),
                     callbackScope: this, 
                 });
                 this.time.addEvent({
